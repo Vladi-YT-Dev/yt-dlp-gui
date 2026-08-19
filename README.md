@@ -27,6 +27,7 @@ A lightweight Graphical User Interface (GUI) wrapper for [yt-dlp](https://github
 The GUI automatically triggers `yt-dlp` using the best MP4 quality format:
 ```bash
 yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" "<LINK>"
+```
 
 📁 **Output:** Downloaded files are saved automatically in your `yt-dlp` root folder.
 
